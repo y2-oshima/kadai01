@@ -1,0 +1,200 @@
+
+h2{
+    font-size: 24px;
+    padding: 0 0 30px 0;
+}
+
+h3{
+    font-size: 18px;
+    padding: 0 0 60px 0;
+}
+
+p{
+    font-size: 16px;
+    line-height: 40px;
+}
+
+li{
+	display:block;
+	    list-style:none;
+}
+
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo{
+  width: 20%;
+  padding:2%;
+}
+
+.hamburger-menu{
+  display: none;
+}
+
+.header-tittle{
+  padding:3%;
+}
+
+.header-tittle li{
+    float: left;
+    padding: 3% 50px 3% 0px;
+    font-size: 25px;
+    list-style: none;
+}
+
+
+.mainbg{
+    width: 100%;
+    position  : relative;
+}
+
+.main-message{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-20%);
+   text-align: center;
+} 
+
+.main-p1{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+}
+
+.main-p2{
+    font-size: 40px;
+    color: white;
+} 
+
+
+#about h2{
+  color: #ffd61a;
+}
+
+.about-message{
+    width: 70%;
+    padding: 0% 15% 5% 15%;
+}
+
+.about-message p{
+  text-align: center;
+  line-height: 250%;
+}
+
+.about-img{
+    float: left;
+    width: 25%;
+    padding-bottom: 60px;
+}
+
+.course-wrapper{
+  display: flex;
+  margin-top: 60px;
+  flex-wrap: wrap;
+	list-style: none;	
+}
+
+.course-wrapper li {
+  width: 50%;
+  flex: auto;
+	
+
+}
+
+.course-img{
+  width: 100%;
+}
+
+.course-text{
+  width: 100%;
+}
+
+.course-text h2{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 24px;
+}
+
+.course-text p{
+  margin :auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-width: 0; 
+  font-size: 18px;
+  line-height: 200%;
+}
+
+
+
+.news-area{
+    display: flex;
+}
+.news-content{    
+    width: 25%;
+    padding: 0 3.75% 0 3.75%;
+}
+
+.news-img{
+    width: 100%;
+}
+
+.news-date{
+    text-align: left;
+    margin: 3% 0 3% 0%;
+}
+
+.news-message{
+    font-size: 14px;
+    line-height: 200%;
+    margin: 0 0 3% 0%;
+
+}
+
+
+
+  .access1{
+      margin-top: 60px;
+      background-color: #fafafa;
+      padding-bottom: 30px;
+  }
+
+  .access-table{
+    padding-top: 45px;
+    padding-left: 35%;
+  }
+
+  .access-dt{
+    float: left;
+    padding: 10px;
+  }
+  
+  .access-dd{
+    margin-left: 150px;
+    padding: 10px;
+  }
+
+  
+
+.footer{
+  background-color:#707070 ;
+}
+.footer-message{
+  text-align: center;
+  padding: 30px 0 30px 0 ;
+  color: white;
+}
+
+input[type=checkbox] {
+	margin: 0 6px 0 12px;
+}
+  
+
+
+  
